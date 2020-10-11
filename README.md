@@ -1,5 +1,11 @@
-This Jenkins pipeline/seed job is based on Tom Gregory'smicroservice devops series articles/repositories in making 
-a Spring Boot application pipelined to AWS ECS/Fargate. This repo has an edit in the codebase so that
+This Jenkins pipeline/seed job is based on Tom Gregory'smicroservice devops series articles that 
+discuss making a Spring Boot application pipelined to AWS ECS/Fargate. 
+
+You can view the original article here:
+
+https://tomgregory.com/building-a-spring-boot-application-in-jenkins/ 
+
+This repo has an edit in the codebase so that
 the docker container data is persisted in a folder /volume in the working directory. Do not delete
 the /volume folder as that is where the save state is loaded/saved in case the container is stopped. 
 
