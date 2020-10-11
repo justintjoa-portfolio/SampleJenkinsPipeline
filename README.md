@@ -1,7 +1,7 @@
 This Jenkins pipeline/seed job is based on Tom Gregory'smicroservice devops series articles that 
 discuss making a Spring Boot application pipelined to AWS ECS/Fargate. 
 
-You can view the original article here:
+You can view the original article (and access the original repositorites) here:
 
 https://tomgregory.com/building-a-spring-boot-application-in-jenkins/ 
 
