@@ -6,8 +6,9 @@ You can view the original article (and access the original repositorites) here:
 https://tomgregory.com/building-a-spring-boot-application-in-jenkins/ 
 
 This repo has an edit in the codebase so that
-the docker container data is persisted in a folder /volume in the working directory. Do not delete
-the /volume folder as that is where the save state is loaded/saved in case the container is stopped. 
+the docker container data is persisted in a folder /volume in the working directory. You will need 
+to create the folder in the topmost directory. Do not delete the /volume folder as that is 
+where the save state is loaded/saved in case the container is stopped. 
 
 This Jenkins Docker container is configured to run Scala/Java. The docker container has a seed job that can be used to generate a main build job of the application 
 you'd like to build. I'm actually using a similar setup for the CI/CD both at work and in my side projects. 
