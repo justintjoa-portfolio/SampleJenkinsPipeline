@@ -1,4 +1,4 @@
-This Jenkins pipeline/seed job is based on Tom Gregory'smicroservice devops series articles that 
+This Jenkins pipeline/seed job is based on Tom Gregory's microservice devops series articles that 
 discuss making a Spring Boot application pipelined to AWS ECS/Fargate. 
 
 You can view the original article (and access the original repositorites) here:
